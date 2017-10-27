@@ -1,5 +1,4 @@
 import MultiBalviharPage from './MultiBalviharPage';
-
 class BostonBVPage extends MultiBalviharPage {
 constructor(){
 super();  

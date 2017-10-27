@@ -4,7 +4,7 @@ import './FormPage.css';
 class MultiBalviharPage extends React.Component {
 protected schema : any;
 protected uiSchema : any;
-protected ui1Schema : any;
+//protected ui1Schema : any;
 constructor(){
 super();
   
@@ -72,7 +72,6 @@ render() {
             <h1>Chinmaya Mission Worldwide</h1>
             <Form
               schema={this.schema}
-              //uiSchema={this.uiSchema}
               uiSchema={this.uiSchema}
              
             />

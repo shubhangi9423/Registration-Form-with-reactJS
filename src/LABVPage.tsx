@@ -1,21 +1,27 @@
 import MultiBalviharPage from './MultiBalviharPage';
-class OrlandoBVPage extends MultiBalviharPage {
+class LABVPage extends MultiBalviharPage {
 constructor(){
 super(); 
  this.uiSchema = {
-            title: {
-                  "ui:widget": "color" 
-                 }, 
-            name: {
+       
+        title: {
+              "ui:widget": "color" 
+              },
+         
+          name: {
                  classNames: 'threeColumn',
+
                },
+
+           
             email:{
-                classNames:'halfWidth',
-                "ui:autofocus": true
+              classNames:'halfWidth',
+              "ui:autofocus": true
+
             },
             phone:{
             classNames:'halfWidth',
-            "ui:placeholder": "023-222-6666"
+            
             },
             dateofbirth:{
             classNames:'halfWidth'
@@ -30,4 +36,4 @@ super();
  }
 }
 
-export default OrlandoBVPage;
+export default LABVPage;
